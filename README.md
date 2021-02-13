@@ -2,7 +2,7 @@
 
 This repository is a collection of python simulations.
 
-You need to run the programms with python3:
+You need to run the programs with python3:
 ```
 python3 --version
 ```
@@ -13,7 +13,7 @@ Installation:
 pip3 install pygame optparse
 ```
 
-To to show the help-menu for a programm, type this in a [terminal/command-line](https://en.wikipedia.org/wiki/Command-line_interface):
+To to show the help-menu for a program, type this in a [terminal/command-line](https://en.wikipedia.org/wiki/Command-line_interface):
 ```
 python3 <your programm, i.e. StarWars.py> -h
 ```
