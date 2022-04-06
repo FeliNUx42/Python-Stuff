@@ -2,7 +2,7 @@ import random
 import pygame
 
 pygame.init()
-width = height = 900
+width = height = 1000
 
 class Game:
   def __init__(self):
@@ -12,6 +12,7 @@ class Game:
     self.corners = []
 
   def clicked(self, pos, screen):
+    if len(self.corners) == 3: return
     self.corners.append(pos)
 
     pygame.draw.circle(screen, (255, 255, 255), pos, self.size)
