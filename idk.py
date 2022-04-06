@@ -50,6 +50,9 @@ def main():
         return
       if event.type == pygame.MOUSEBUTTONUP:
         game.clicked(event.pos, screen)
+      if event.type == pygame.KEYDOWN and event.key == pygame.K_c:
+        screen.fill((0,0,0))
+        game = Game()
 
 
 if __name__ == '__main__':
